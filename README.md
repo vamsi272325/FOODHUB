@@ -1,4 +1,7 @@
 # 🍛 Indian Recipe Hub
+LIVE LINK:http://127.0.0.1:5500/index.html
+
+
 
 Indian Recipe Hub is a sleek, interactive web application showcasing delicious South Indian and Biryani recipes. Built with pure **HTML**, **CSS**, and **JavaScript**, it allows users to search, filter, and view detailed recipe instructions in a smooth, modern interface.
 
