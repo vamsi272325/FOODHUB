@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>South Indian & Biryani Recipes</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🍛 Indian Recipe Hub</h1>
+    <p>Find delicious recipes like Biryani, Dosa, Idli & more!</p>
+  </header>
+
+  <section class="controls">
+    <input id="q" type="text" placeholder="🔍 Search recipes..." />
+    <div id="filters">
+      <button class="chip active" data-cat="all">All</button>
+      <button class="chip" data-cat="biryani">Biryani</button>
+      <button class="chip" data-cat="south">South Indian</button>
+      <button class="chip" data-cat="veg">Veg</button>
+      <button class="chip" data-cat="chicken">Chicken</button>
+    </div>
+  </section>
+
+  <main id="grid" class="grid"></main>
+  <p id="empty" class="empty">No recipes found.</p>
+
+  <!-- Modal -->
+  <div id="overlay" class="overlay">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button id="close" class="close" aria-label="Close modal">&times;</button>
+      <div id="modal-media" class="modal-media"></div>
+      <h2 id="modal-title"></h2>
+      <p><strong>Category:</strong> <span id="modal-category"></span></p>
+      <p><strong>Prep:</strong> <span id="modal-prep"></span></p>
+      <p><strong>Cook:</strong> <span id="modal-cook"></span></p>
+      <p><strong>Serves:</strong> <span id="modal-serves"></span></p>
+
+      <h3>Ingredients</h3>
+      <ul id="modal-ingredients"></ul>
+
+      <h3>Steps</h3>
+      <ol id="modal-steps"></ol>
+
+      <h3>Tips</h3>
+      <p id="modal-tips"></p>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
+
