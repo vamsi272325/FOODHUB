@@ -19,7 +19,8 @@ Indian Recipe Hub is a sleek, interactive web application showcasing delicious S
 
 ## 🖼️ Demo Screenshot
 
-![Demo Screenshot](screenshot.png)
+![Demo Screenshot]<img width="1919" height="875" alt="image" src="https://github.com/user-attachments/assets/7243432a-198d-455d-8a37-e23b261a512d" />
+
 
 ---
 
