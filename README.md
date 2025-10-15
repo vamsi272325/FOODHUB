@@ -1,6 +1,5 @@
 # 🍛 Indian Recipe Hub
-
-
+LIVE LINK : https://vamsi272325.github.io/FOODHUB/
 Indian Recipe Hub is a sleek, interactive web application showcasing delicious South Indian and Biryani recipes. Built with pure **HTML**, **CSS**, and **JavaScript**, it allows users to search, filter, and view detailed recipe instructions in a smooth, modern interface.
 
 ---
@@ -63,7 +62,7 @@ IndianRecipeHub/
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/indian-recipe-hub.git
+   git clone https://github.com/vamsi272325/FOODHUB.git
    🎨 Styling Notes
 
 Uses CSS variables (custom properties) for easy theming and customization.
